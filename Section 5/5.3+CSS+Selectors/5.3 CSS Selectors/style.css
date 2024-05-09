@@ -1,0 +1,40 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p{
+  color: red;
+}
+
+.note{
+  font-size: 20px;
+  font-style: italic;
+  background-color: rgb(232, 205, 205);
+}
+
+#id-selector-demo{
+  color: green;
+}
+
+li[value="4"]{
+  color: blue;
+}
+li[value="2"]{
+  background-color: brown;
+}
+
+li[value="3"]{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li[value="5"]{
+  font-style: oblique;
+}
+*{
+  text-align: center;
+  background-color: rgb(242, 244, 217);
+  font-style: italic;
+}

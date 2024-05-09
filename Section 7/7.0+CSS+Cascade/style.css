@@ -1,0 +1,33 @@
+/* Don't change the existing CSS. */
+
+#outer-box{
+  background-color: #eda9d2;
+  border-radius: 8px;
+}
+
+.box {
+  background-color: #1B3C73;
+  padding: 10px;
+
+}
+.inner-box{
+  background-color: #eda9d2;
+  border-radius: 11px;
+}
+.inner-box-box{
+  background-color: pink;
+  border-radius: 11px;
+}
+
+p {
+  color: #fcf58f;
+  margin: 0;
+  padding: 0;
+}
+
+.white-text{
+  color: white;
+  
+}
+
+
