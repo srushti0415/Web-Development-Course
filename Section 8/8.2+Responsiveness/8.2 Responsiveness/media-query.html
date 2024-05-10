@@ -6,26 +6,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Media Query</title>
   <style>
-    div {
-      background-color: rebeccapurple;
+    .block {
       height: 500px;
       width: 500px;
+      clear: both;
+    }
+   
+    .one{
+      background-color: cadetblue;
+      float: left;
+    }
+    .two{
+      background-color: plum;
+      float: right;
     }
 
     @media (max-width: 600px) {
 
       /* CSS for screens below or equal to 600px wide */
       div {
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 100px;
       }
     }
+
+    
+  
   </style>
 </head>
 
 <body>
-  <h1>Media Query</h1>
+  <h1 class="block one">Media Query</h1>
   <div></div>
+  <h2 class="block two">Hello Sunshine ! </h2>
+  <div></div>
+
 </body>
 
 </html>

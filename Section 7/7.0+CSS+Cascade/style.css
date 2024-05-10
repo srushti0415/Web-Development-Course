@@ -8,10 +8,9 @@
 .box {
   background-color: #1B3C73;
   padding: 10px;
-
 }
 .inner-box{
-  background-color: #eda9d2;
+  background-color: #fb4eb6;
   border-radius: 11px;
 }
 .inner-box-box{
@@ -27,7 +26,6 @@ p {
 
 .white-text{
   color: white;
-  
 }
 
 
