@@ -42,20 +42,22 @@ h1 {
     text-align: center;
   }
   .card{   
-      text-align: center;
-      display: block;
-      clear: right;
+      width: 100%;   
+      text-align: justify;
+      display: inline-block;
+      margin-bottom: 30px;
 
     }
-    .tile-image{
-      display: block;
+    .crad img{
+      display: inline; 
       height: 120px;
       width: 120px;
+      object-fit: cover;
       
     }
     .card-title{
       font-size: 15px;
-      text-align: center;
+  
     }
     .card-text{
       display: block;
