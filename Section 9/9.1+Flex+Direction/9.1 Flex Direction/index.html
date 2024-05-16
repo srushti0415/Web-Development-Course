@@ -12,13 +12,39 @@
   <style>
     .container {
       color: white;
-      border: 5px solid gold;
+      border: 5px solid rgb(238, 213, 74);
+      height: 70vh;
       display: flex;
-    }
+       flex-wrap: wrap;
+      align-content: center;
+     
+             
+  } 
+  .yellow{
+    order: -3;
+    flex-direction: ro;
+  }
+
+  .container > *{
+    flex-basis: 100px;
+  }
+  .indigo{
+    align-self:flex-end;
+  }
+  
+ 
+
+    
 
     /*
+       
 Select all the elements that are the direct
 children of the .container class.
+
+this also works :
+    body > div > div {
+    flex-basis: 100px;
+}
     */
 
     .red {background-color: #eb4d4b;}
