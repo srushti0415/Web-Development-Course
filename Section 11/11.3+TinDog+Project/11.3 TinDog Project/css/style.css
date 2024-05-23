@@ -1,5 +1,5 @@
 .gradient-background {
-  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background: linear-gradient(300deg, #00bfff, #f282fc, #ef8172);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -25,4 +25,21 @@
 .profile-img {
   height: 100px;
   border-radius: 50%;
+}
+.h1{
+  font-size: 10px;
+}
+.bitch {
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+.hidog{
+  font-size: 40px;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
 }
