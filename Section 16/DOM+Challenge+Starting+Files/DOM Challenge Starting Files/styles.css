@@ -1,3 +1,5 @@
-h1 {
-  color: red;
+.huge {
+  color: rgb(156, 227, 241);
+  font-size: 10rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
