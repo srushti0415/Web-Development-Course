@@ -17,31 +17,31 @@ footer {
 }
 
 .w {
-  background: url("./images/crash.png");
-}
-
-.a {
-  background: url("./images/kick.png");
-}
-
-.s {
-  background: url("./images/snare.png");
-}
-
-.d {
   background: url("./images/tom1.png");
 }
 
-.j {
+.a {
   background: url("./images/tom2.png");
 }
 
-.k {
+.s {
   background: url("./images/tom3.png");
 }
 
-.l {
+.d {
   background: url("./images/tom4.png");
+}
+
+.j {
+  background: url("./images/crash.png");
+}
+
+.k {
+  background: url("./images/kick.png");
+}
+
+.l {
+  background: url("./images/snare.png");
 }
 
 .set {
@@ -49,7 +49,7 @@ footer {
 }
 
 .game-over {
-  background-color: red;
+  background-color: rgb(252, 9, 9);
   opacity: 0.8;
 }
 
