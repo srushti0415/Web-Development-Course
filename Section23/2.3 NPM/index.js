@@ -5,8 +5,16 @@
 
 // console.log(`My name is ${sillyName}.`);
 
-import superheroes from "superheroes";
+// import superheroes from "superheroes";
 
-const name = superheroes.random();
+// const name = superheroes.random();
 
-console.log(`I am ${name}!`);
+// console.log(`I am ${name}!`);
+
+import express from "express";
+const app = express();
+const port = 3000;
+
+app.listen(port, () => {
+  console.log(`Server running on port ${port}.`);
+});
