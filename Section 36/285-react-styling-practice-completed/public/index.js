@@ -19,7 +19,7 @@ const customStyle = {
 };
 
 if (currentTime < 12) {
-  greeting = "Good Morning !!";
+  greeting = "How are uuu !!";
   customStyle.color = "yellow";
 } else if (currentTime < 18) {
   greeting = "Good Afternoon";
