@@ -12,10 +12,10 @@ body {
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #f8bd1b;
   margin: auto -16px;
   padding: 16px 32px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 rgba(11, 10, 10, 0.3);
 }
 
 header h1 {
