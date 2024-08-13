@@ -1,19 +1,19 @@
 /* Don't change the existing CSS. */
 
-#outer-box{
-  background-color: #eda9d2;
+#outer-box {
+  background-color: #f4cbe3;
   border-radius: 8px;
 }
 
 .box {
-  background-color: #1B3C73;
+  background-color: #5b85cf;
   padding: 10px;
 }
-.inner-box{
+.inner-box {
   background-color: #fb4eb6;
   border-radius: 11px;
 }
-.inner-box-box{
+.inner-box-box {
   background-color: pink;
   border-radius: 11px;
 }
@@ -24,8 +24,6 @@ p {
   padding: 0;
 }
 
-.white-text{
+.white-text {
   color: white;
 }
-
-
